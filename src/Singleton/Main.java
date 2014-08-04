@@ -3,8 +3,10 @@ package Singleton;
 public class Main {
     public static void main(String[] args){
         System.out.println("Start.");
-        Singleton obj1 = Singleton.getInstance();
-        Singleton obj2 = Singleton.getInstance();
+//        Singleton1 obj1 = Singleton1.getInstance();
+//        Singleton1 obj2 = Singleton1.getInstance();
+        Singleton6 obj1 = Singleton6.INSTANCE;
+        Singleton6 obj2 = Singleton6.INSTANCE;
         if (obj1 == obj2) {
             System.out.println("obj1과 obj2는 같은 인스턴스입니다.");
         } else {
