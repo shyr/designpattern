@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="558049a5-9718-4653-8311-af193b999b5f" name="Default" comment="add singleton">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Singleton/Singleton4.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Singleton/Singleton5.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Singleton/Singleton6.java" />
-      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\DesignPattern\src\ppt\ch5.pptx" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Singleton/Main.java" afterPath="$PROJECT_DIR$/src/Singleton/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Singleton/Singleton.java" afterPath="$PROJECT_DIR$/src/Singleton/Singleton.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Singleton/Singleton1.java" afterPath="$PROJECT_DIR$/src/Singleton/Singleton1.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Singleton/Singleton3.java" afterPath="$PROJECT_DIR$/src/Singleton/Singleton3.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+    <list default="true" id="558049a5-9718-4653-8311-af193b999b5f" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\Users\Administrator\Desktop\DesignPattern\src\Singleton\ch5.pptx" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DesignPattern.iws" />
@@ -576,7 +568,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="add singleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="add singleton" />
+    <MESSAGE value="singleton" />
+    <option name="LAST_COMMIT_MESSAGE" value="singleton" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
