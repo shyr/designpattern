@@ -1,7 +1,14 @@
 package Singleton;
 
 /**
- * Created by Naver on 2014-08-04.
+ * Initialization On Demand Holder Idiom.
+ * As lazy as possible, and works in all known versions of Java.
+ * It takes advantage of language guarantees about class initialization,
+ * and will therefore work correctly in all Java-compliant compilers and virtual machines.
+ *
+ * The nested class is referenced no earlier (and therefore loaded no earlier by the class loader)
+ * than the moment that getInstance() is called.
+ * Thus, this solution is thread-safe without requiring special language constructs (i.e. volatile or synchronized).
  */
 public class Singleton5 {
     // Private constructor prevents instantiation from other classes

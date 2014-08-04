@@ -1,7 +1,7 @@
 package Singleton;
 
 /**
- * Created by Naver on 2014-08-04.
+ * Very easy to implement and has no drawbacks regarding serializable objects
  */
 public enum Singleton6 {
     INSTANCE;
