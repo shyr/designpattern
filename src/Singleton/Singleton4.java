@@ -1,7 +1,7 @@
 package Singleton;
 
 /**
- * Created by Sungho on 2014-08-04.
+ * Static block initialization.
  */
 public class Singleton4 {
     private static final Singleton4 instance;

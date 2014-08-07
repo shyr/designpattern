@@ -1,11 +1,12 @@
 package Singleton;
 
 /**
- * Created by Sungho on 2014-08-04.
+ * Created by Naver on 2014-08-04.
  */
 public class Singleton5 {
     // Private constructor prevents instantiation from other classes
-    private Singleton5() { }
+    private Singleton5() {
+    }
 
     /**
      * SingletonHolder is loaded on the first execution of Singleton.getInstance()
