@@ -3,7 +3,7 @@ package Builder;
 /**
  * Created by Sungho on 2014-08-08.
  */
-public class Main {
+public class BuilderMain {
     public static void main(String[] args) {
         if(args.length != 1) {
             usage();

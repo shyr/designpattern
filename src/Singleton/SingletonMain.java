@@ -1,6 +1,6 @@
 package Singleton;
 
-public class Main {
+public class SingletonMain {
     public static void main(String[] args){
         System.out.println("Start.");
 //        Singleton1 obj1 = Singleton1.getInstance();

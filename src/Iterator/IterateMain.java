@@ -3,7 +3,7 @@ package Iterator;
 /**
  * Created by Naver on 2014-07-25.
  */
-public class Main {
+public class IterateMain {
     public static void main(String[] args){
         BookShelf bookShelf = new BookShelf(4);
         bookShelf.appendBook(new Book("Around the World in 80 Days"));
