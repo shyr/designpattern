@@ -3,7 +3,7 @@ package TemplateMethod;
 /**
  * Created by Naver on 2014-07-29.
  */
-public class Main {
+public class TemplateMain {
     public static void main(String[] args){
         AbstractDisplay d1 = new CharDisplay('H');
         AbstractDisplay d2 = new StringDisplay("Hello, world.");
