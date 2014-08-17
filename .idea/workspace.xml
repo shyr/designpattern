@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="558049a5-9718-4653-8311-af193b999b5f" name="Default" comment="default">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/_ppt/ch9.pptx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Bridge/BridgeMain.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Bridge/simple/BridgePattern.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Bridge/CountDisplay.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Bridge/Display.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Bridge/DisplayImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Bridge/StringDisplayImpl.java" />
-      <change type="MOVED" beforePath="C:\Users\Sungho\Desktop\designpattern\src\TemplateMethod\Main.java" afterPath="$PROJECT_DIR$/src/TemplateMethod/TemplateMain.java" />
+    <list default="true" id="558049a5-9718-4653-8311-af193b999b5f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DesignPattern.iws" />
