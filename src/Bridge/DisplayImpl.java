@@ -1,7 +1,7 @@
 package Bridge;
 
 /**
- * Created by Sungho on 2014-08-18.
+ * Implementor.
  */
 public abstract class DisplayImpl {
     public abstract void rawOpen();

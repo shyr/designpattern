@@ -1,7 +1,7 @@
 package Bridge;
 
 /**
- * Created by Sungho on 2014-08-18.
+ * ConcreteImplementor.
  */
 public class StringDisplayImpl extends DisplayImpl{
     private String string;

@@ -1,7 +1,7 @@
 package Bridge;
 
 /**
- * Created by Sungho on 2014-08-18.
+ * Abstraction.
  */
 public class Display {
     private DisplayImpl impl;

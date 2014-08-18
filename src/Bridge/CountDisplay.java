@@ -1,7 +1,7 @@
 package Bridge;
 
 /**
- * Created by Sungho on 2014-08-18.
+ * RefinedAbstraction.
  */
 public class CountDisplay extends Display{
     public CountDisplay(DisplayImpl impl) {
