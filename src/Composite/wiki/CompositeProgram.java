@@ -9,7 +9,7 @@ import java.util.ArrayList;
 /** "Component" */
 interface Graphic {
 
-    //Prints the graphic.
+    // 그래픽을 출력함
     public void print();
 
 }
@@ -17,22 +17,22 @@ interface Graphic {
 /** "Composite" */
 class CompositeGraphic implements Graphic {
 
-    //Collection of child graphics.
+    // 자식 그래픽들의 컬렉션
     private List<Graphic> mChildGraphics = new ArrayList<Graphic>();
 
-    //Prints the graphic.
-    public void print() {
+    // 그래픽을 출력함
+    @Override public void print() {
         for (Graphic graphic : mChildGraphics) {
             graphic.print();
         }
     }
 
-    //Adds the graphic to the composition.
+    // 해당 그래픽을 컬렉션에 추가함
     public void add(Graphic graphic) {
         mChildGraphics.add(graphic);
     }
 
-    //Removes the graphic from the composition.
+    // 해당 그래픽을 컬렉션에서 제거함
     public void remove(Graphic graphic) {
         mChildGraphics.remove(graphic);
     }
@@ -43,7 +43,7 @@ class CompositeGraphic implements Graphic {
 /** "Leaf" */
 class Ellipse implements Graphic {
 
-    //Prints the graphic.
+    // 그래픽을 출력함
     public void print() {
         System.out.println("Ellipse");
     }
@@ -55,18 +55,18 @@ class Ellipse implements Graphic {
 public class CompositeProgram {
 
     public static void main(String[] args) {
-        //Initialize four ellipses
+        // 4개의 ellipses 객체를 초기화함
         Ellipse ellipse1 = new Ellipse();
         Ellipse ellipse2 = new Ellipse();
         Ellipse ellipse3 = new Ellipse();
         Ellipse ellipse4 = new Ellipse();
 
-        //Initialize three composite graphics
+        // 3개의 composite 그래픽들을 초기화함
         CompositeGraphic graphic = new CompositeGraphic();
         CompositeGraphic graphic1 = new CompositeGraphic();
         CompositeGraphic graphic2 = new CompositeGraphic();
 
-        //Composes the graphics
+        // 그래픽들을 구성함
         graphic1.add(ellipse1);
         graphic1.add(ellipse2);
         graphic1.add(ellipse3);
@@ -76,7 +76,7 @@ public class CompositeProgram {
         graphic.add(graphic1);
         graphic.add(graphic2);
 
-        //Prints the complete graphic (four times the string "Ellipse").
+        // 전체 그래픽들을 출력함("Ellipse"가 4번 출력됨)
         graphic.print();
     }
 }
