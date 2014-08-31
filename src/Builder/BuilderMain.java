@@ -27,7 +27,7 @@ public class BuilderMain {
         }
     }
     public static void usage() {
-        System.out.println("Usage: java Main plain 일반 텍스트로 문서작성");
-        System.out.println("Usage: java Main html HTML 파일로 문서작성");
+        System.out.println("Usage: java FacadeMain plain 일반 텍스트로 문서작성");
+        System.out.println("Usage: java FacadeMain html HTML 파일로 문서작성");
     }
 }
