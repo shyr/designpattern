@@ -3,8 +3,8 @@ package Observer;
 import java.util.Random;
 
 public class RandomNumberGenerator extends NumberGenerator {
-    private Random random = new Random();   // �����߻��
-    private int number;                        // ������ ��
+    private Random random = new Random();
+    private int number;
     public int getNumber() {                   // ���� ����Ѵ�
         return number;
     }
