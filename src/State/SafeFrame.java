@@ -10,8 +10,6 @@ import java.awt.BorderLayout;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 
-// VM options에 -Dfile.encoding=MS949 를 추가
-
 public class SafeFrame extends Frame implements ActionListener, Context {
     private TextField textClock = new TextField(60);        // 현재시간 표시
     private TextArea textScreen = new TextArea(10, 60);    // 경비센터 출력
@@ -67,7 +65,7 @@ public class SafeFrame extends Frame implements ActionListener, Context {
     }
     // 시간설정
     public void setClock(int hour) {
-        String clockstring = "현재 시간은";
+        String clockstring = "현재 시간은 ";
         if (hour < 10) {
             clockstring += "0" + hour + ":00";
         } else {
@@ -75,7 +73,7 @@ public class SafeFrame extends Frame implements ActionListener, Context {
         }
         System.out.println(clockstring);
         textClock.setText(clockstring);
-        state.doClock(this, hour);
+        state.doClock(this, hour);  // state에게 위임 -> 현재 상태에 의존해서 처리
     }
     // 상태전환
     public void changeState(State state) {
