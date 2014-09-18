@@ -1,5 +1,6 @@
 package Observer;
 
+/** Concrete Observer */
 public class GraphObserver implements Observer {
     public void update(NumberGenerator generator) {
         System.out.print("GraphObserver:");
