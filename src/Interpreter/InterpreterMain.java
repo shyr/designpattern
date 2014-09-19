@@ -3,7 +3,7 @@ package Interpreter;
 import java.util.*;
 import java.io.*;
 
-public class Main {
+public class InterpreterMain {
     public static void main(String[] args) {
         try {
             BufferedReader reader = new BufferedReader(new FileReader("program.txt"));
